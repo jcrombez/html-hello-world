@@ -1,0 +1,12 @@
+image: outeredge/edge-docker-drone-base
+docker:
+  net: host
+publish:
+  docker:
+    docker_host: tcp://127.0.0.1:2377
+    docker_version: 1.0
+    username: myuser
+    password: mypassword
+    mail: myuser@example.com
+    image_name: html-hello-world
+    keep_builds: false
