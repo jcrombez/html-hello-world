@@ -1,4 +1,4 @@
-image: image: outeredge/edge-docker-drone-base
+image: outeredge/edge-docker-drone-base
 docker:
   net: host
 publish:
